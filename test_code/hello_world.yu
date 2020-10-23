@@ -1,0 +1,15 @@
+start:
+    print "Hello World!"
+    do function0
+    print "Back in start"
+    print "Stopping"
+    stop
+
+function0:
+    print "     In function0"
+    do function1
+
+function1:
+    print "             In function1"
+
+
